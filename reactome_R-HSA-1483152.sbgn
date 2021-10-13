@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sbgn xmlns="http://sbgn.org/libsbgn/0.2">
+    <map language="process description">
+        <glyph class="compartment" id="cytosol">
+            <label text="cytosol"/>
+            <bbox w="52.0" h="34.0" x="-2.0" y="-2.0"/>
+        </glyph>
+        <glyph class="compartment" id="endoplasmic_reticulum_membrane">
+            <label text="endoplasmic reticulum membrane"/>
+            <bbox w="52.0" h="34.0" x="-2.0" y="-2.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_1fde6b571d7703bc5e1d4d34336b0b91" compartmentRef="cytosol">
+            <label text="ETA"/>
+            <bbox w="48.0" h="20.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="http://pathwaycommons.org/pc12/Protein_8cd236707c3fe279bbe962dfbd92e904" compartmentRef="cytosol">
+            <label text="GPCPD1"/>
+            <bbox w="48.0" h="30.0" x="0.0" y="0.0"/>
+            <glyph class="state variable">
+                <state value="x[1 - 672]"/>
+                <bbox w="35.0" h="10.0" x="0.0" y="0.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_a0a467882f26ca55ec3d0a65d04e82fb" compartmentRef="cytosol">
+            <label text="GPETA"/>
+            <bbox w="48.0" h="20.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_ce3c5af77df1830a03d90e6373590b5e" compartmentRef="cytosol">
+            <label text="G3P"/>
+            <bbox w="48.0" h="20.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_a31e06833b489972db0e29427334863c" compartmentRef="cytosol">
+            <label text="H2O"/>
+            <clone/>
+            <bbox w="45.0" h="15.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_d4d1dac5078cc9fa7756458e1e5c652d" compartmentRef="cytosol">
+            <label text="H2O"/>
+            <clone/>
+            <bbox w="45.0" h="15.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_e36df4b2debbe05707b334ec3844a6fe" compartmentRef="cytosol">
+            <label text="H2O"/>
+            <clone/>
+            <bbox w="45.0" h="15.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="process" id="http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" compartmentRef="cytosol">
+            <bbox w="15.0" h="15.0" x="0.0" y="0.0"/>
+            <port id="INP_http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" x="0.0" y="0.0"/>
+            <port id="OUT_http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_db951a3e3151d55ed9e1402904d521d5" compartmentRef="endoplasmic_reticulum_membrane">
+            <label text="2-acyl LPE"/>
+            <bbox w="48.0" h="20.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_e79bffc022b142390403a4a7ad14805b" compartmentRef="endoplasmic_reticulum_membrane">
+            <label text="LCFA(-)"/>
+            <bbox w="48.0" h="20.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="simple chemical" id="http://pathwaycommons.org/pc12/SmallMolecule_7b9afc5a79c111086af40786cbb911cd" compartmentRef="endoplasmic_reticulum_membrane">
+            <label text="1-acyl LPE"/>
+            <bbox w="48.0" h="20.0" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="macromolecule" id="http://pathwaycommons.org/pc12/Protein_4e65b2a3b18c39fd0dc82adb49d3e1e8" compartmentRef="endoplasmic_reticulum_membrane">
+            <label text="PLA2G4C"/>
+            <bbox w="48.0" h="30.0" x="0.0" y="0.0"/>
+            <glyph class="state variable">
+                <state value="x[1 - 538]"/>
+                <bbox w="35.0" h="10.0" x="0.0" y="0.0"/>
+            </glyph>
+        </glyph>
+        <glyph class="process" id="http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" compartmentRef="endoplasmic_reticulum_membrane">
+            <bbox w="15.0" h="15.0" x="0.0" y="0.0"/>
+            <port id="INP_http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" x="0.0" y="0.0"/>
+            <port id="OUT_http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" x="0.0" y="0.0"/>
+        </glyph>
+        <glyph class="process" id="http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" compartmentRef="endoplasmic_reticulum_membrane">
+            <bbox w="15.0" h="15.0" x="0.0" y="0.0"/>
+            <port id="INP_http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" x="0.0" y="0.0"/>
+            <port id="OUT_http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" x="0.0" y="0.0"/>
+        </glyph>
+        <arc class="catalysis" id="http://pathwaycommons.org/pc12/Protein_4e65b2a3b18c39fd0dc82adb49d3e1e8--TO--http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/Protein_4e65b2a3b18c39fd0dc82adb49d3e1e8" target="http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="consumption" id="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_e36df4b2debbe05707b334ec3844a6fe--TO--INP_http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_e36df4b2debbe05707b334ec3844a6fe" target="http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="consumption" id="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_d4d1dac5078cc9fa7756458e1e5c652d--TO--INP_http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_d4d1dac5078cc9fa7756458e1e5c652d" target="http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="catalysis" id="http://pathwaycommons.org/pc12/Protein_8cd236707c3fe279bbe962dfbd92e904--TO--http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/Protein_8cd236707c3fe279bbe962dfbd92e904" target="http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="production" id="OUT_http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT--TO--http://pathwaycommons.org/pc12/SmallMolecule_ce3c5af77df1830a03d90e6373590b5e" source="http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" target="http://pathwaycommons.org/pc12/SmallMolecule_ce3c5af77df1830a03d90e6373590b5e">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="production" id="OUT_http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT--TO--http://pathwaycommons.org/pc12/SmallMolecule_1fde6b571d7703bc5e1d4d34336b0b91" source="http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" target="http://pathwaycommons.org/pc12/SmallMolecule_1fde6b571d7703bc5e1d4d34336b0b91">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="consumption" id="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_a31e06833b489972db0e29427334863c--TO--INP_http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/SmallMolecule_b0d424a8b3228b108fe4a8f0847bc1ed_a31e06833b489972db0e29427334863c" target="http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="production" id="OUT_http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT--TO--http://pathwaycommons.org/pc12/SmallMolecule_a0a467882f26ca55ec3d0a65d04e82fb" source="http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" target="http://pathwaycommons.org/pc12/SmallMolecule_a0a467882f26ca55ec3d0a65d04e82fb">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="consumption" id="http://pathwaycommons.org/pc12/SmallMolecule_a0a467882f26ca55ec3d0a65d04e82fb--TO--INP_http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/SmallMolecule_a0a467882f26ca55ec3d0a65d04e82fb" target="http://identifiers.org/reactome/R-HSA-1483107_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="consumption" id="http://pathwaycommons.org/pc12/SmallMolecule_7b9afc5a79c111086af40786cbb911cd--TO--INP_http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/SmallMolecule_7b9afc5a79c111086af40786cbb911cd" target="http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="production" id="OUT_http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT--TO--http://pathwaycommons.org/pc12/SmallMolecule_e79bffc022b142390403a4a7ad14805b" source="http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" target="http://pathwaycommons.org/pc12/SmallMolecule_e79bffc022b142390403a4a7ad14805b">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="production" id="OUT_http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT--TO--http://pathwaycommons.org/pc12/SmallMolecule_a0a467882f26ca55ec3d0a65d04e82fb" source="http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" target="http://pathwaycommons.org/pc12/SmallMolecule_a0a467882f26ca55ec3d0a65d04e82fb">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="consumption" id="http://pathwaycommons.org/pc12/SmallMolecule_db951a3e3151d55ed9e1402904d521d5--TO--INP_http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/SmallMolecule_db951a3e3151d55ed9e1402904d521d5" target="http://identifiers.org/reactome/R-HSA-1482545_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="catalysis" id="http://pathwaycommons.org/pc12/Protein_4e65b2a3b18c39fd0dc82adb49d3e1e8--TO--http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" source="http://pathwaycommons.org/pc12/Protein_4e65b2a3b18c39fd0dc82adb49d3e1e8" target="http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+        <arc class="production" id="OUT_http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT--TO--http://pathwaycommons.org/pc12/SmallMolecule_e79bffc022b142390403a4a7ad14805b" source="http://identifiers.org/reactome/R-HSA-1482571_LEFTTORIGHT" target="http://pathwaycommons.org/pc12/SmallMolecule_e79bffc022b142390403a4a7ad14805b">
+            <start x="0.0" y="0.0"/>
+            <end x="0.0" y="0.0"/>
+        </arc>
+    </map>
+</sbgn>
